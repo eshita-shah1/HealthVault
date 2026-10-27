@@ -1,0 +1,35 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Settings & validation
+pydantic==2.13.5
+pydantic-settings==2.12.0
+email-validator==2.2.0
+
+# Database
+sqlalchemy==2.0.54
+alembic==1.14.0
+psycopg[binary]==3.2.10
+
+# Auth / security
+pyjwt==2.10.1
+bcrypt==4.2.1
+
+# File / storage
+boto3==1.35.90
+
+# AI / OCR (provider abstractions - install what you plug in)
+pytesseract==0.3.13
+pillow==12.3.0
+pypdf==5.1.0
+openai==1.58.1
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0

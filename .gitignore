@@ -1,0 +1,10 @@
+# This repo intentionally tracks only backend/ and frontend/ (application
+# code). Everything else at the project root (reports, scripts, local
+# scratch files) stays untracked.
+*
+
+!backend/
+!backend/**
+!frontend/
+!frontend/**
+!.gitignore

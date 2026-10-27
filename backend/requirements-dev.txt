@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Used only by tests, to synthesize a real text-layer PDF for the document
+# upload/pipeline tests instead of relying on a fixture binary.
+reportlab==4.2.5
